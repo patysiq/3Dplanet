@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BFECD862512AF7000CC8D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFECD852512AF7000CC8D47 /* AppDelegate.swift */; };
+		7BFECD882512AF7000CC8D47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFECD872512AF7000CC8D47 /* SceneDelegate.swift */; };
+		7BFECD8A2512AF7000CC8D47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFECD892512AF7000CC8D47 /* ViewController.swift */; };
+		7BFECD8D2512AF7000CC8D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFECD8B2512AF7000CC8D47 /* Main.storyboard */; };
+		7BFECD902512AF7000CC8D47 /* _DEarth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BFECD8E2512AF7000CC8D47 /* _DEarth.xcdatamodeld */; };
+		7BFECD922512AF7100CC8D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BFECD912512AF7100CC8D47 /* Assets.xcassets */; };
+		7BFECD952512AF7100CC8D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFECD932512AF7100CC8D47 /* LaunchScreen.storyboard */; };
+		7BFECDA02512AF7200CC8D47 /* _DEarthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFECD9F2512AF7200CC8D47 /* _DEarthTests.swift */; };
+		7BFECDAB2512AF7200CC8D47 /* _DEarthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFECDAA2512AF7200CC8D47 /* _DEarthUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BFECD9C2512AF7200CC8D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BFECD7A2512AF7000CC8D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BFECD812512AF7000CC8D47;
+			remoteInfo = 3DEarth;
+		};
+		7BFECDA72512AF7200CC8D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BFECD7A2512AF7000CC8D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BFECD812512AF7000CC8D47;
+			remoteInfo = 3DEarth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BFECD822512AF7000CC8D47 /* 3DEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFECD852512AF7000CC8D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BFECD872512AF7000CC8D47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7BFECD892512AF7000CC8D47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BFECD8C2512AF7000CC8D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BFECD8F2512AF7000CC8D47 /* _DEarth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _DEarth.xcdatamodel; sourceTree = "<group>"; };
+		7BFECD912512AF7100CC8D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BFECD942512AF7100CC8D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BFECD962512AF7100CC8D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFECD9B2512AF7200CC8D47 /* 3DEarthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DEarthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFECD9F2512AF7200CC8D47 /* _DEarthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DEarthTests.swift; sourceTree = "<group>"; };
+		7BFECDA12512AF7200CC8D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFECDA62512AF7200CC8D47 /* 3DEarthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DEarthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFECDAA2512AF7200CC8D47 /* _DEarthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DEarthUITests.swift; sourceTree = "<group>"; };
+		7BFECDAC2512AF7200CC8D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BFECD7F2512AF7000CC8D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFECD982512AF7200CC8D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFECDA32512AF7200CC8D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BFECD792512AF7000CC8D47 = {
+			isa = PBXGroup;
+			children = (
+				7BFECD842512AF7000CC8D47 /* 3DEarth */,
+				7BFECD9E2512AF7200CC8D47 /* 3DEarthTests */,
+				7BFECDA92512AF7200CC8D47 /* 3DEarthUITests */,
+				7BFECD832512AF7000CC8D47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BFECD832512AF7000CC8D47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BFECD822512AF7000CC8D47 /* 3DEarth.app */,
+				7BFECD9B2512AF7200CC8D47 /* 3DEarthTests.xctest */,
+				7BFECDA62512AF7200CC8D47 /* 3DEarthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BFECD842512AF7000CC8D47 /* 3DEarth */ = {
+			isa = PBXGroup;
+			children = (
+				7BFECD852512AF7000CC8D47 /* AppDelegate.swift */,
+				7BFECD872512AF7000CC8D47 /* SceneDelegate.swift */,
+				7BFECD892512AF7000CC8D47 /* ViewController.swift */,
+				7BFECD8B2512AF7000CC8D47 /* Main.storyboard */,
+				7BFECD912512AF7100CC8D47 /* Assets.xcassets */,
+				7BFECD932512AF7100CC8D47 /* LaunchScreen.storyboard */,
+				7BFECD962512AF7100CC8D47 /* Info.plist */,
+				7BFECD8E2512AF7000CC8D47 /* _DEarth.xcdatamodeld */,
+			);
+			path = 3DEarth;
+			sourceTree = "<group>";
+		};
+		7BFECD9E2512AF7200CC8D47 /* 3DEarthTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BFECD9F2512AF7200CC8D47 /* _DEarthTests.swift */,
+				7BFECDA12512AF7200CC8D47 /* Info.plist */,
+			);
+			path = 3DEarthTests;
+			sourceTree = "<group>";
+		};
+		7BFECDA92512AF7200CC8D47 /* 3DEarthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BFECDAA2512AF7200CC8D47 /* _DEarthUITests.swift */,
+				7BFECDAC2512AF7200CC8D47 /* Info.plist */,
+			);
+			path = 3DEarthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BFECD812512AF7000CC8D47 /* 3DEarth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFECDAF2512AF7200CC8D47 /* Build configuration list for PBXNativeTarget "3DEarth" */;
+			buildPhases = (
+				7BFECD7E2512AF7000CC8D47 /* Sources */,
+				7BFECD7F2512AF7000CC8D47 /* Frameworks */,
+				7BFECD802512AF7000CC8D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DEarth;
+			productName = 3DEarth;
+			productReference = 7BFECD822512AF7000CC8D47 /* 3DEarth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BFECD9A2512AF7200CC8D47 /* 3DEarthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFECDB22512AF7200CC8D47 /* Build configuration list for PBXNativeTarget "3DEarthTests" */;
+			buildPhases = (
+				7BFECD972512AF7200CC8D47 /* Sources */,
+				7BFECD982512AF7200CC8D47 /* Frameworks */,
+				7BFECD992512AF7200CC8D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BFECD9D2512AF7200CC8D47 /* PBXTargetDependency */,
+			);
+			name = 3DEarthTests;
+			productName = 3DEarthTests;
+			productReference = 7BFECD9B2512AF7200CC8D47 /* 3DEarthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BFECDA52512AF7200CC8D47 /* 3DEarthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFECDB52512AF7200CC8D47 /* Build configuration list for PBXNativeTarget "3DEarthUITests" */;
+			buildPhases = (
+				7BFECDA22512AF7200CC8D47 /* Sources */,
+				7BFECDA32512AF7200CC8D47 /* Frameworks */,
+				7BFECDA42512AF7200CC8D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BFECDA82512AF7200CC8D47 /* PBXTargetDependency */,
+			);
+			name = 3DEarthUITests;
+			productName = 3DEarthUITests;
+			productReference = 7BFECDA62512AF7200CC8D47 /* 3DEarthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BFECD7A2512AF7000CC8D47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "PATRICIA S SIQUEIRA";
+				TargetAttributes = {
+					7BFECD812512AF7000CC8D47 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					7BFECD9A2512AF7200CC8D47 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 7BFECD812512AF7000CC8D47;
+					};
+					7BFECDA52512AF7200CC8D47 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 7BFECD812512AF7000CC8D47;
+					};
+				};
+			};
+			buildConfigurationList = 7BFECD7D2512AF7000CC8D47 /* Build configuration list for PBXProject "3DEarth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BFECD792512AF7000CC8D47;
+			productRefGroup = 7BFECD832512AF7000CC8D47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BFECD812512AF7000CC8D47 /* 3DEarth */,
+				7BFECD9A2512AF7200CC8D47 /* 3DEarthTests */,
+				7BFECDA52512AF7200CC8D47 /* 3DEarthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BFECD802512AF7000CC8D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFECD952512AF7100CC8D47 /* LaunchScreen.storyboard in Resources */,
+				7BFECD922512AF7100CC8D47 /* Assets.xcassets in Resources */,
+				7BFECD8D2512AF7000CC8D47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFECD992512AF7200CC8D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFECDA42512AF7200CC8D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BFECD7E2512AF7000CC8D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFECD8A2512AF7000CC8D47 /* ViewController.swift in Sources */,
+				7BFECD862512AF7000CC8D47 /* AppDelegate.swift in Sources */,
+				7BFECD882512AF7000CC8D47 /* SceneDelegate.swift in Sources */,
+				7BFECD902512AF7000CC8D47 /* _DEarth.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFECD972512AF7200CC8D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFECDA02512AF7200CC8D47 /* _DEarthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFECDA22512AF7200CC8D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFECDAB2512AF7200CC8D47 /* _DEarthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BFECD9D2512AF7200CC8D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BFECD812512AF7000CC8D47 /* 3DEarth */;
+			targetProxy = 7BFECD9C2512AF7200CC8D47 /* PBXContainerItemProxy */;
+		};
+		7BFECDA82512AF7200CC8D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BFECD812512AF7000CC8D47 /* 3DEarth */;
+			targetProxy = 7BFECDA72512AF7200CC8D47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BFECD8B2512AF7000CC8D47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BFECD8C2512AF7000CC8D47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BFECD932512AF7100CC8D47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BFECD942512AF7100CC8D47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BFECDAD2512AF7200CC8D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BFECDAE2512AF7200CC8D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BFECDB02512AF7200CC8D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 937MK3AF6X;
+				INFOPLIST_FILE = 3DEarth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriciasampaiosiqueira.-DEarth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BFECDB12512AF7200CC8D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 937MK3AF6X;
+				INFOPLIST_FILE = 3DEarth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriciasampaiosiqueira.-DEarth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BFECDB32512AF7200CC8D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 937MK3AF6X;
+				INFOPLIST_FILE = 3DEarthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriciasampaiosiqueira.-DEarthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DEarth.app/3DEarth";
+			};
+			name = Debug;
+		};
+		7BFECDB42512AF7200CC8D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 937MK3AF6X;
+				INFOPLIST_FILE = 3DEarthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriciasampaiosiqueira.-DEarthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DEarth.app/3DEarth";
+			};
+			name = Release;
+		};
+		7BFECDB62512AF7200CC8D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 937MK3AF6X;
+				INFOPLIST_FILE = 3DEarthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriciasampaiosiqueira.-DEarthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3DEarth;
+			};
+			name = Debug;
+		};
+		7BFECDB72512AF7200CC8D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 937MK3AF6X;
+				INFOPLIST_FILE = 3DEarthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriciasampaiosiqueira.-DEarthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3DEarth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BFECD7D2512AF7000CC8D47 /* Build configuration list for PBXProject "3DEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFECDAD2512AF7200CC8D47 /* Debug */,
+				7BFECDAE2512AF7200CC8D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFECDAF2512AF7200CC8D47 /* Build configuration list for PBXNativeTarget "3DEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFECDB02512AF7200CC8D47 /* Debug */,
+				7BFECDB12512AF7200CC8D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFECDB22512AF7200CC8D47 /* Build configuration list for PBXNativeTarget "3DEarthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFECDB32512AF7200CC8D47 /* Debug */,
+				7BFECDB42512AF7200CC8D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFECDB52512AF7200CC8D47 /* Build configuration list for PBXNativeTarget "3DEarthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFECDB62512AF7200CC8D47 /* Debug */,
+				7BFECDB72512AF7200CC8D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7BFECD8E2512AF7000CC8D47 /* _DEarth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7BFECD8F2512AF7000CC8D47 /* _DEarth.xcdatamodel */,
+			);
+			currentVersion = 7BFECD8F2512AF7000CC8D47 /* _DEarth.xcdatamodel */;
+			path = _DEarth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7BFECD7A2512AF7000CC8D47 /* Project object */;
+}
