@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B0CCAA32512F0280091E438 /* EarthNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0CCAA22512F0280091E438 /* EarthNode.swift */; };
 		7BFECD862512AF7000CC8D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFECD852512AF7000CC8D47 /* AppDelegate.swift */; };
 		7BFECD882512AF7000CC8D47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFECD872512AF7000CC8D47 /* SceneDelegate.swift */; };
 		7BFECD8A2512AF7000CC8D47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFECD892512AF7000CC8D47 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B0CCAA22512F0280091E438 /* EarthNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthNode.swift; sourceTree = "<group>"; };
 		7BFECD822512AF7000CC8D47 /* 3DEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFECD852512AF7000CC8D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BFECD872512AF7000CC8D47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				7BFECD852512AF7000CC8D47 /* AppDelegate.swift */,
 				7BFECD872512AF7000CC8D47 /* SceneDelegate.swift */,
 				7BFECD892512AF7000CC8D47 /* ViewController.swift */,
+				7B0CCAA22512F0280091E438 /* EarthNode.swift */,
 				7BFECD8B2512AF7000CC8D47 /* Main.storyboard */,
 				7BFECD912512AF7100CC8D47 /* Assets.xcassets */,
 				7BFECD932512AF7100CC8D47 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BFECD8A2512AF7000CC8D47 /* ViewController.swift in Sources */,
+				7B0CCAA32512F0280091E438 /* EarthNode.swift in Sources */,
 				7BFECD862512AF7000CC8D47 /* AppDelegate.swift in Sources */,
 				7BFECD882512AF7000CC8D47 /* SceneDelegate.swift in Sources */,
 				7BFECD902512AF7000CC8D47 /* _DEarth.xcdatamodeld in Sources */,
